@@ -1,2 +1,2 @@
-# AgendaDjango
+# Agenda
  Projeto feito em Django
