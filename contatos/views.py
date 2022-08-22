@@ -39,7 +39,7 @@ def busca(request):
     ).filter(
         Q(nomecompleto__icontains=termo) | Q(telefone__icontains=termo),
         mostrar=True
-    )
+    ).order_by('-id')
     paginator = Paginator(contatos, 3)
     page = request.GET.get('p')
     contatos = paginator.get_page(page)
