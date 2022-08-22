@@ -37,7 +37,8 @@ def busca(request):
     contatos = Contato.objects.annotate(
         nomecompleto=campos
     ).filter(
-        Q(nomecompleto__icontains=termo) | Q(telefone__icontains=termo)
+        Q(nomecompleto__icontains=termo) | Q(telefone__icontains=termo),
+        mostrar=True
     )
     paginator = Paginator(contatos, 3)
     page = request.GET.get('p')
