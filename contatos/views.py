@@ -24,7 +24,8 @@ def vercontato(request, contato_id):
     if not contato.mostrar:
         raise Http404()
     return render(request, 'contatos/vercontato.html', {
-        'contato': contato
+        'contato': contato,
+        'id': contato_id
     })
 
 

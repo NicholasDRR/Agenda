@@ -4,12 +4,12 @@ from .models import Categoria, Contato
 
 class ContatoAdmin(admin.ModelAdmin):
     list_display = ('id', 'nome', 'sobrenome', 'telefone', 'email',
-                    'datacriacao', 'categoria', 'mostrar')
+                    'datacriacao', 'categoria', 'mostrar', 'descricao')
     list_display_links = ('id', 'nome', 'sobrenome')
     #list_filter = ('nome', 'sobrenome')
     list_per_page = 10
     search_fields = ('nome', 'sobrenome')
-    list_editable = ('telefone', 'mostrar')
+    list_editable = ('email', 'telefone')
 
 
 class CategoriaAdmin(admin.ModelAdmin):
