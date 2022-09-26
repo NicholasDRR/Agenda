@@ -37,4 +37,4 @@ Extras:
  
 
 ## Video
-Publicação: https://www.linkedin.com/posts/nicholas-ribeiro-py_python-networking-project-activity-6980019139402698752-AIRd?utm_source=share&utm_medium=member_desktop
+Publicação: [**Linkedin**](https://www.linkedin.com/posts/nicholas-ribeiro-py_python-networking-project-activity-6980008557488287744-_A6K?utm_source=share&utm_medium=member_desktop).
