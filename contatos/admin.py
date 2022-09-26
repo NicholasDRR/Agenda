@@ -4,7 +4,7 @@ from .models import Categoria, Contato
 
 class ContatoAdmin(admin.ModelAdmin):
     list_display = ('id', 'nome', 'sobrenome', 'telefone', 'email',
-                    'datacriacao', 'categoria', 'mostrar', 'descricao')
+                    'datacriacao', 'categoria', 'mostrar')
     list_display_links = ('id', 'nome', 'sobrenome')
     #list_filter = ('nome', 'sobrenome')
     list_per_page = 10
