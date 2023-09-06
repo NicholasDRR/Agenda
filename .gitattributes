@@ -1,2 +1,5 @@
 static/* linguist-vendored
 templates/* linguist-vendored
+contatos/templates* linguist-vendored
+accounts/templates* linguist-vendored
+*.python linguist-detectable=true
