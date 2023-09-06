@@ -1,5 +1,5 @@
 static/* linguist-vendored
 templates/* linguist-vendored
-contatos/templates* linguist-vendored
-accounts/templates* linguist-vendored
+contatos/* linguist-vendored
+accounts/* linguist-vendored
 *.python linguist-detectable=true
